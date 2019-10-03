@@ -1,25 +1,19 @@
 var pares = [2, 4, 6];
-undefined
 var impares = [1, 3, 5];
-undefined
 var mix = [1, 3, 5, 8];
-undefined
+
 var even = function (element){
 	//verify if is pair
 	return element  % 2 === 0;
 }
-
     
-undefined
 SOME() --->> test element of array by function offer
 
 console.log(pares.some(even));
-VM774:1 Uncaught SyntaxError: Unexpected token '>>'
-console.log(pares.some(even));
 VM788:1 true
-undefined
+
 console.log(impares.some(even));
 VM839:1 false
-undefined
+
 console.log(mix.some(even));
 VM890:1 true
